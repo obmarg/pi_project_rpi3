@@ -23,5 +23,7 @@ config pkg, :nerves_env,
     "cmdline.txt",
     "config.txt",
     "post-createfs.sh",
-    "VERSION"
+    "VERSION",
+    "external.mk",
+    "package"
   ]

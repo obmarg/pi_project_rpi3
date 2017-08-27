@@ -1,0 +1,9 @@
+# Add project-specific packages for Buildroot here
+#
+# If these are non-proprietary, please consider contributing them back to
+# Nerves or Buildroot.
+#
+source "$NERVES_DEFCONFIG_DIR/package/python-cap1xxx/Config.in"
+source "$NERVES_DEFCONFIG_DIR/package/python-dot3k/Config.in"
+source "$NERVES_DEFCONFIG_DIR/package/python-sn3218/Config.in"
+source "$NERVES_DEFCONFIG_DIR/package/python-st7036/Config.in"

@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_DOT3K
+	bool "python-dot3k"
+	select BR2_PACKAGE_PYTHON_ST7036 # runtime
+	select BR2_PACKAGE_PYTHON_SN3218 # runtime
+	select BR2_PACKAGE_PYTHON_CAP1XXX # runtime
+	help
+	  Display-o-Tron 3000 Driver.
+
+	  http://www.pimoroni.com

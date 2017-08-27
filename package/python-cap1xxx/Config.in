@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_CAP1XXX
+	bool "python-cap1xxx"
+	select BR2_PACKAGE_PYTHON_RPIGPIO # runtime
+	help
+	  A module to drive various Microchip cap1xxx touch ICs.
+
+	  http://shop.pimoroni.com

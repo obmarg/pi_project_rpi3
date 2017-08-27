@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_ST7036
+	bool "python-st7036"
+	select BR2_PACKAGE_PYTHON_SPIDEV # runtime
+	select BR2_PACKAGE_PYTHON_RPIGPIO # runtime
+	help
+	  Raspberry Pi ST7036 SPI Driver.
+
+	  http://www.pimoroni.com
